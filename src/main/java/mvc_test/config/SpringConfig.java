@@ -9,6 +9,6 @@ public class SpringConfig {
 
     @Bean
     public TestBean getTestBean() {
-        return new TestBean("Hello, guys");
+        return new TestBean("My name is Andrei");
     }
 }
