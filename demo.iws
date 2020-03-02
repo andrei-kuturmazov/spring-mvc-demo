@@ -7,14 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bddb644-11c7-475c-a579-b333eac3afc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo.ipr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mvc_test/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc_test/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc_test/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc_test/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/demo.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.iws" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mvc_test/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc_test/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mvc_test/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc_test/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mvc_test/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc_test/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc_test/service/TestBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc_test/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc_test/service/UserService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +43,19 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="mvc_test" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mvc_test" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mvc_test: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mvc_test" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mvc_test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="t_user: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -259,7 +273,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583134462416</updated>
       <workItem from="1583134464478" duration="291000" />
-      <workItem from="1583134806360" duration="4102000" />
+      <workItem from="1583134806360" duration="6705000" />
     </task>
     <servers />
   </component>

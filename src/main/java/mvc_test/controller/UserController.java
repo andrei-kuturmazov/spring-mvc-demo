@@ -1,5 +1,7 @@
 package mvc_test.controller;
 
+import mvc_test.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,6 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/")
 public class UserController {
 
+    @Autowired
+    public UserService userService;
+
     @GetMapping("/")
     public String index() {
         return "index";
@@ -15,5 +20,9 @@ public class UserController {
     @GetMapping("/hello")
     public String getHello() {
         return "hello";
+    }
+    @GetMapping("/users")
+    public String getAllUsers() {
+        return "usersList";
     }
 }
